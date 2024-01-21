@@ -5,13 +5,14 @@ This project is a Python script that automates the process of sending emails to 
 <img width="473" alt="Screenshot 2024-01-20 at 9 32 32 PM" src="https://github.com/dsc-jiit-128/emailing-system/assets/115946158/13de66d1-6cde-4aad-99e5-d3f87c83a77b">
 
 
+
 ### Getting Started
 Follow these steps to use the script:
 
 #### 1. Clone the Repository:
 Clone this repository to your local machine using the following command:
 
-`git clone https://github.com/dsc-jiit-128/emailing-system.git`
+`git clone https://github.com/harshk04/EfficientMail.git`
 
 #### 2. Install Dependencies:
 Ensure you have the required Python packages installed. You can install them using the following command:
@@ -57,3 +58,12 @@ This script is provided as-is and may require modifications based on your specif
 If you encounter any issues or have suggestions for improvements, feel free to open an issue on the GitHub repository.
 
 #### Happy Emailing!
+
+
+<h2>📬 Contact</h2>
+
+If you want to contact me, you can reach me through below handles.
+
+&nbsp;&nbsp;<a href="https://www.linkedin.com/in/harsh-kumawat-069bb324b/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
+
+© 2024 Harsh

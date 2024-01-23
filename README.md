@@ -2,8 +2,13 @@
 
 This project is a Python script that automates the process of sending emails to a list of recipients using Gmail. The script reads email addresses from an Excel file, prompts the user for their email credentials, subject, and HTML body, and then sends personalized emails to the recipients.
 
+## Screenshots
+
+### Without Attachment
 <img width="473" alt="Screenshot 2024-01-20 at 9 32 32 PM" src="https://github.com/dsc-jiit-128/emailing-system/assets/115946158/13de66d1-6cde-4aad-99e5-d3f87c83a77b">
 
+### With CC & Attachment
+<img width="580" alt="Screenshot 2024-01-23 at 6 02 29 PM" src="https://github.com/harshk04/EfficientMail/assets/115946158/2055ea4c-584a-4192-b5be-1f57c66a9019">
 
 
 ### Getting Started
@@ -42,6 +47,10 @@ During script execution, you will be prompted to provide the following informati
 **Subject:** The subject line for the email.
 
 **HTML Body:** The HTML body of the email. Use \n to indicate new paragraphs.
+
+**Attachment:** You will be asked if you want to add an attachment (1 for Yes, 0 for No).
+
+**CC Recipients:** If you choose to add CC recipients, you will be prompted to enter CC email addresses (separated by commas).
 
 
 

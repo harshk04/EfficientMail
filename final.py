@@ -19,12 +19,12 @@ def read_email_list(file):
 
 # Streamlit UI
 st.set_page_config(
-    page_title="Email Sender App",
+    page_title="EfficientMail",
     page_icon="✉️",
     layout="centered",
 )
 
-st.title("Email Sender App")
+st.header("EfficientMail - Email Sender App")
 
 # Pop-up button with instructions for the Excel sheet
 with st.expander("ℹ️ How should the Excel sheet look like?"):
@@ -42,7 +42,7 @@ else:
 
 # User input for email and password
 email_user = st.text_input("Enter your email:")
-email_password = st.text_input("Enter your email password:", type="password")
+email_password = st.text_input("Enter your email password (APP PASSWORD) to be generated from Gmail Account:", type="password")
 
 # User input for CC recipients
 add_cc = st.checkbox("Add CC recipients?")

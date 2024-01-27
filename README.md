@@ -1,14 +1,8 @@
 # EfficientMail
-
-This project is a Python script that automates the process of sending emails to a list of recipients using Gmail. The script reads email addresses from an Excel file, prompts the user for their email credentials, subject, and HTML body, and then sends personalized emails to the recipients.
+EfficientMail is now seamlessly integrated with Streamlit, offering a user-friendly interface to automate the process of sending personalized emails via Gmail. The streamlined interaction involves importing email addresses from an Excel file, securely inputting email credentials, specifying the subject line, and customizing the HTML body. Experience the convenience of sending tailored emails effortlessly with EfficientMail through the intuitive and interactive Streamlit deployment.
 
 ## Screenshots
-
-### Without Attachment
-<img width="473" alt="Screenshot 2024-01-20 at 9 32 32 PM" src="https://github.com/dsc-jiit-128/emailing-system/assets/115946158/13de66d1-6cde-4aad-99e5-d3f87c83a77b">
-
-### With CC & Attachment
-<img width="580" alt="Screenshot 2024-01-23 at 6 02 29 PM" src="https://github.com/harshk04/EfficientMail/assets/115946158/2055ea4c-584a-4192-b5be-1f57c66a9019">
+<img width="889" alt="Screenshot 2024-01-27 at 8 18 22 PM" src="https://github.com/harshk04/EfficientMail/assets/115946158/743f5657-e1cc-482e-b583-45536098cf58">
 
 
 ### Getting Started

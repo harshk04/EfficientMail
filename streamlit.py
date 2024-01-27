@@ -19,7 +19,7 @@ def read_email_list(file):
 
 # Streamlit UI
 st.set_page_config(
-    page_title="Email Sender App",
+    page_title="EfficientMail",
     page_icon="✉️",
     layout="centered",
 )

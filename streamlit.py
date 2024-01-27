@@ -6,16 +6,26 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 import os
+import openpyxl
 
-# Function to read email list from Excel file
 def read_email_list(file):
     try:
-        df = pd.read_excel(file)
+        df = pd.read_excel(file, engine='openpyxl')  # Specify the engine as 'openpyxl'
         email_col = df.get("Email")
         return list(email_col)
     except Exception as e:
         st.error(f"Error reading the Excel file: {e}")
         return []
+        
+# Function to read email list from Excel file
+# def read_email_list(file):
+#     try:
+#         df = pd.read_excel(file)
+#         email_col = df.get("Email")
+#         return list(email_col)
+#     except Exception as e:
+#         st.error(f"Error reading the Excel file: {e}")
+#         return []
 
 # Streamlit UI
 st.set_page_config(

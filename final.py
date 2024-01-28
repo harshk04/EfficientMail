@@ -41,6 +41,11 @@ else:
     st.warning("Please upload an Excel file to proceed.")
 
 # User input for email and password
+password_hover_text = "How to generate app password from Gmail"
+password_hover_link = "https://www.youtube.com/watch?v=T0Op3Qzz6Ms"
+password_hover_message = f'<a href="{password_hover_link}" target="_blank">{password_hover_text}</a>'
+password_tooltip = st.markdown(password_hover_message, unsafe_allow_html=True, key="password_tooltip", enable_st_writer=False)
+
 email_user = st.text_input("Enter your email:")
 email_password = st.text_input("Enter your email password (APP PASSWORD) to be generated from Gmail Account:", type="password")
 

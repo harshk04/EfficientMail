@@ -1,5 +1,5 @@
 # EfficientMail
-EfficientMail is now seamlessly integrated with Streamlit, offering a user-friendly interface to automate the process of sending personalized emails via Gmail. The streamlined interaction involves importing email addresses from an Excel file, securely inputting email credentials, specifying the subject line, and customizing the HTML body. Experience the convenience of sending tailored emails effortlessly with EfficientMail through the intuitive and interactive Streamlit deployment.
+EfficientMail is seamlessly integrated with Streamlit, offering a user-friendly interface to automate the process of sending personalized emails via Gmail. The streamlined interaction involves importing email addresses from an Excel file, securely inputting email credentials, specifying the subject line, and customizing the HTML body. Experience the convenience of sending tailored emails effortlessly with EfficientMail through the intuitive and interactive Streamlit deployment.
 
 ## Screenshots
 <img width="889" alt="Screenshot 2024-01-27 at 8 18 22 PM" src="https://github.com/harshk04/EfficientMail/assets/115946158/743f5657-e1cc-482e-b583-45536098cf58">
